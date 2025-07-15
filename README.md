@@ -52,6 +52,8 @@ The core objectives of this project are:
 - Oil shows **moderate positive correlation** with gold and FX.
 - Detected structural shifts: e.g., post-2014 oil collapse, Eurozone crises, and 2018 USD appreciation.
 
+![Data](image/gold1.png)
+
 ### 3. Modeling & Forecasting
 - Built three models to predict EUR/USD:
   - **Random Forest Regressor**
@@ -66,6 +68,8 @@ The core objectives of this project are:
 
 - XGBoost was the top performer due to its ability to handle non-linear interactions.
 - Residuals were homoscedastic and normally distributed—confirming model validity.
+
+![Data](image/gold2.png)
 
 ### 4. Report Creation
 - Built a multi-page Power BI dashboard:
@@ -94,5 +98,4 @@ The core objectives of this project are:
 - **For Deployment**: Serialize the XGBoost model and build a real-time API wrapper for dynamic FX forecasting.
 
 ---
-
-*Prepared on July 14, 2025. Based on the `gold.ipynb` notebook and associated Power BI visualizations.*
+![Data](image/gold6.png)
