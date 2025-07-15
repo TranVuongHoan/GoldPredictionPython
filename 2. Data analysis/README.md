@@ -62,6 +62,8 @@ The dataset contains daily market data spanning **January 4, 2010, to December 3
 
 **Key Insight**: Gold and EUR/USD are strongly positively correlated, while SPX (equities) has an inverse relationship with gold.
 
+![Data](image/gold5.png)
+
 ### 3.2 Time Series Insights
 
 #### Gold Price Trends (GLD)
@@ -75,6 +77,8 @@ The dataset contains daily market data spanning **January 4, 2010, to December 3
 #### Oil Price Influence (USO)
 - Weak positive relationship with gold (~0.34).
 - Oil crashes (e.g., 2014–2016) had limited impact on GLD.
+
+![Data](image/gold4.png)
 
 ---
 
@@ -100,6 +104,8 @@ Three regression models were developed and tested:
 | Polynomial + Lasso | 0.88 | 0.0032 |
 | Random Forest | 0.86 | 0.0034 |
 
+![Data](image/gold2.png)
+
 ---
 
 ## 5. Model Interpretation
@@ -118,6 +124,8 @@ Feature importance analysis (via XGBoost) revealed:
 ### 5.3 Model Fit Visualization  
 - `y_pred vs y_true` scatter showed a tight diagonal alignment in the XGBoost model.
 - Polynomial regression showed more spread for extreme values, possibly due to overfitting or extrapolation error.
+
+![Data](image/gold3.png)
 
 ---
 
